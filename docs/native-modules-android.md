@@ -358,7 +358,7 @@ In order to create a native module method with a callback, first import the `Cal
 import com.facebook.react.bridge.Callback;
 
 @ReactMethod
-public void createCalendarEvent(String name, String location, Callback callBack) {
+public void createCalendarEvent(String name, String location, Callback callback) {
 }
 ```
 
